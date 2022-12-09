@@ -86,3 +86,12 @@ switch (luckyNumber) {
     console.log("Luck is what happens when preparation meets opportunity");
 }
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+const statement =
+  luckyNumber == 1
+    ? "First is the worst"
+    : luckyNumber == 2
+    ? "Second is the best"
+    : luckyNumber == 3
+    ? "Third is the one with the polka dot dress"
+    : "Luck is what happens when preparation meets opportunity";
+console.log(statement);
